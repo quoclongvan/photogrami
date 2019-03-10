@@ -1,0 +1,4 @@
+{
+  "db": "photogrami_connectionString",
+  "jwtPrivateKey": "photogrami_jwtPrivateKey"
+}

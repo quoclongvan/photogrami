@@ -1,0 +1,4 @@
+node_modules
+photo-profil/*
+!photo-profil/photo-defaut.png
+photo-publication/*

@@ -1,0 +1,36 @@
+{
+  "name": "photogr-ami",
+  "version": "1.0.0",
+  "description": "It is a social network-like website to publish picture, talk with other people, edit your profile. The backend was made using Node.JS with MongoDB & the frontend using Vue.JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --runInBand",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.15.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app": "^0.1.0",
+    "bcrypt": "^3.0.3",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.7",
+    "mongoose-type-email": "^1.0.10",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  }
+}
